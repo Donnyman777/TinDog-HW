@@ -1,0 +1,148 @@
+/************Tag BOOTSTRAP***********/
+
+body {
+  font-family:'Montserrat';
+}
+
+h1, h2, h3, { font-family:'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.colored-section {
+  color: #fff;
+  background-color: #FF4C68;
+}
+.white-section {
+background-color: white;
+  text-align: center;
+}
+.absolute {
+  position: absolute;
+}
+.title-image {
+  width: 60%;
+  left: 200px;
+  position: absolute;
+
+}
+
+.rotate {
+  transform: rotate(25deg);
+}
+
+#features {
+  padding: 7% 20% 7% 20%;
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* navbar stuff */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family:'Ubuntu';
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+/* navbar stuff */
+
+/* Download Button stuff */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* Download Button stuff */
+
+
+.feature-icon {
+  color: #FF4C68;
+  margin-bottom: 1rem;
+  ;
+}
+.feature-icon:hover {
+  color: pink;
+}
+
+/*Testimonials*/
+#testimonials {
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  height: 9rem;
+}
+
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+.boy {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px 100px 100px 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  padding: 3% 15% 3% 15%;
+}
+.true-love {
+  font-size: 3rem;
+}
+#footer {
+  padding: 5% 40%;
+}
+.icon-squeeze {
+  padding: 1% 30%
+}
+@media (max-width: 1020px) {
+  h1 {text-align: center;}
+  .title-image {position: static;}
+  .rotate {transform: rotate(0deg);}
+}
+/*font-family: 'Ubuntu', sans-serif;/
+/font-family: 'Montserrat', sans-serif;/
